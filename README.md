@@ -43,8 +43,11 @@ para simular o envio, exibindo o progresso no console.
 
 ## Como Rodar
 1. Clone o repositório: `git clone https://github.com/seuusuario/LojaVirtualPOOJava.git`
-2. Abra no IDE (ex: IntelliJ ou Eclipse).
-3. Compile e rode a classe `Main.java`.
-4. Siga o menu no console para cadastrar produtos, criar pedidos, etc.
+2. Adicione o driver SQLite do projeto:
+- Vá em File → Project Structure → Modules → Dependencies.
+- Clique no + e escolha JARs or directories.
+- Navegue até a pasta lib do projeto e selecione o .jar do SQLite.
+4. Compile e rode a classe `Main.java`.
+5. Siga o menu no console para cadastrar produtos, criar pedidos, etc.
 
 *Projeto desenvolvido como atividade prática da disciplina de POO em Java.*
