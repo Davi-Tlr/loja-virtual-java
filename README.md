@@ -1,11 +1,42 @@
 # Sistema de Cadastro e Processamento de Pedidos em uma Loja Virtual
 
 ## Descrição
-Projeto acadêmico para o 3º semestre, implementando conceitos de POO em Java. 
+Aplicação console em Java que simula uma loja virtual com cadastro de 
+produtos, criação e processamento de pedidos com threads, e persistência 
+de dados em SQLite.
 
-O sistema simula uma loja virtual com cadastro de produtos (físicos e digitais), 
-criação e processamento de pedidos via threads, e persistência em banco de dados 
-SQLite.
+## Funcionalidades Principais
+
+- **Cadastrar produto**
+
+  Adiciona produtos **físicos** (com peso se for fisico) ou **digitais** (com tamanho em MB se digital).
+Além de Informar nome, preço e atributos específicos.
+
+- **Listar produtos**
+
+  Veja todos os produtos cadastrados, com ID, nome, preço e tipo (físico/digital).
+
+- **Criar pedido**
+
+  Monte um pedido adicionando produtos por ID.
+
+  O sistema calcula automaticamente o valor total e armazena o pedido em memória.
+
+- **Processar pedido (Thread)**
+
+  Simule o processamento dos itens em uma thread separada, com atraso de 1.5s por item para imitar o envio ou embalagem, exibindo o progresso no console.
+
+- **Salvar pedido no banco**
+
+  Persiste os pedidos no banco SQLite, incluindo data, total e itens associados.
+
+- **Listar pedidos salvos**
+
+  Exibe os pedidos armazenados no banco, com ID, data, total e resumo dos itens.
+
+- **Sair**
+
+  Encerra o programa e fecha conexões.
 
 ### Conceitos de POO Aplicados
 
@@ -42,4 +73,4 @@ SQLite.
 - `controller/`: Lógica do app
 - `view/`: Interface console
 
-*Projeto desenvolvido para uma atividade de POO em Java*
+*Projeto desenvolvido como atividade prática da disciplina de POO em Java.*
