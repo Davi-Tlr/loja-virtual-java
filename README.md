@@ -20,6 +20,8 @@ para simular o envio, exibindo o progresso no console.
 6. **Listar pedidos salvos:** Exibe os pedidos armazenados no banco, com ID, data, total e resumo dos itens.
 7. **Sair:** Encerra o programa e fecha conexões.
 
+![Resumo pedido](screenshots/Resumo_pedido.png)
+
 ### Conceitos de POO Aplicados
 
 - **Encapsulamento:** Uso de atributos privados e métodos getters/setters;
