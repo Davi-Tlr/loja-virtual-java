@@ -1,5 +1,7 @@
 # Sistema de Cadastro e Processamento de Pedidos em uma Loja Virtual
 
+![Imagem Sistema](screenshots/Sistema.png)
+
 ## Descrição
 Aplicação console em Java que simula uma loja virtual com cadastro de 
 produtos, criação e processamento de pedidos com threads, e persistência 
